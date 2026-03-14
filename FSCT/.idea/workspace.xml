@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="faa7a906-9b27-4311-9576-3e43492e57ea" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/example.las" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/example.las" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/validation/example.las" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme_images/CCI.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/readme_images/CCI.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme_images/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/readme_images/banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme_images/cleaned_cyl_vis.png" beforeDir="false" afterPath="$PROJECT_DIR$/readme_images/cleaned_cyl_vis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme_images/cwd_points.png" beforeDir="false" afterPath="$PROJECT_DIR$/readme_images/cwd_points.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme_images/dtm1.png" beforeDir="false" afterPath="$PROJECT_DIR$/readme_images/dtm1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme_images/individual_tree_segmentation.png" beforeDir="false" afterPath="$PROJECT_DIR$/readme_images/individual_tree_segmentation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme_images/input_point_cloud.png" beforeDir="false" afterPath="$PROJECT_DIR$/readme_images/input_point_cloud.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme_images/plot_map.png" beforeDir="false" afterPath="$PROJECT_DIR$/readme_images/plot_map.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme_images/segmented.png" beforeDir="false" afterPath="$PROJECT_DIR$/readme_images/segmented.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme_images/segmented2.png" beforeDir="false" afterPath="$PROJECT_DIR$/readme_images/segmented2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme_images/simple_outputs.png" beforeDir="false" afterPath="$PROJECT_DIR$/readme_images/simple_outputs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme_images/stem_points.png" beforeDir="false" afterPath="$PROJECT_DIR$/readme_images/stem_points.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme_images/terrain_points.png" beforeDir="false" afterPath="$PROJECT_DIR$/readme_images/terrain_points.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme_images/tree_aware_plot_cropping.png" beforeDir="false" afterPath="$PROJECT_DIR$/readme_images/tree_aware_plot_cropping.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme_images/vegetation.png" beforeDir="false" afterPath="$PROJECT_DIR$/readme_images/vegetation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme_images/working_point_cloud.png" beforeDir="false" afterPath="$PROJECT_DIR$/readme_images/working_point_cloud.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/augmentations.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/augmentations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/combine_multiple_output_CSVs.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/combine_multiple_output_CSVs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fsct_exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/fsct_exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/inference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/measure.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/measure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/other_parameters.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/other_parameters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/post_segmentation_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/post_segmentation_script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/report_writer.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/report_writer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/run_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/run_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/run_with_multiple_plot_centres.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/run_with_multiple_plot_centres.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/train_datasets.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/train_datasets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/training_monitor.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/training_monitor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/-.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/-.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/0.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/4.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/5.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/6.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/6.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/7.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/7.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/8.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/8.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/9.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/9.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/A.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/A.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/B.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/B.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/C.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/C.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/D.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/D.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/E.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/E.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/F.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/F.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/G.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/G.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/H.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/H.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/I.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/I.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/J.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/J.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/K.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/K.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/L.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/L.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/N.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/N.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/O.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/O.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/P.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/P.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/Q.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/Q.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/R.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/R.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/S.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/S.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/T.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/T.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/U.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/U.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/V.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/V.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/W.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/W.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/X.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/X.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/Y.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/Y.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/Z.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/Z.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/_.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/_.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/_M.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/_M.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/dot.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/dot.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/m.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/m.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/numbers.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/numbers.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/semiC.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/semiC.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/numbers/space.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tools/numbers/space.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="3AstXdLL37UmalKtID4wQxW92Fj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/mnt/DATA2",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.31033.139" />
+        <option value="bundled-python-sdk-2653e85de345-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.31033.139" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="faa7a906-9b27-4311-9576-3e43492e57ea" name="Changes" comment="" />
+      <created>1773393147618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773393147618</updated>
+      <workItem from="1773393148829" duration="956000" />
+      <workItem from="1773458900149" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

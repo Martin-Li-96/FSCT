@@ -1,0 +1,21 @@
+FROM nvcr.io/nvidia/cuda:13.0.1-cudnn-devel-ubi10
+COPY rocky.repo /etc/yum.repos.d
+
+RUN rm -rf /etc/yum.repos.d/redhat.repo &&\
+    rm -rf /etc/yum.repos.d/ubi.repo &&\
+    dnf install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-10.noarch.rpm &&\
+    rpm -e --nodeps openssl-fips-provider &&\
+    rpm -e --nodeps openssl-fips-provider-so &&\
+    dnf clean all &&\
+    dnf distro-sync -y &&\
+    dnf update -y &&\
+    dnf install -y ncurses procps openssh-server sudo mesa-libGL \
+                   mesa-dri-drivers python3-devel git cmake &&\
+    pip install --upgrade pip &&\
+    pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130 &&\
+    pip install torch_geometric &&\
+    pip install torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.10.0+cpu.html &&\
+    
+
+
+

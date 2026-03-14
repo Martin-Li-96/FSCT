@@ -1,0 +1,17 @@
+[rocky-baseos]
+name=Rocky Linux \$releasever - BaseOS
+baseurl=https://download.rockylinux.org/pub/rocky/9/BaseOS/x86_64/os/
+enabled=1
+gpgcheck=0
+
+[rocky-appstream]
+name=Rocky Linux \$releasever - AppStream
+baseurl=https://download.rockylinux.org/pub/rocky/9/AppStream/x86_64/os/
+enabled=1
+gpgcheck=0
+
+[rocky-crb]
+name=Rocky Linux \$releasever - CRB
+baseurl=https://download.rockylinux.org/pub/rocky/9/CRB/x86_64/os/
+enabled=1
+gpgcheck=0
