@@ -129,6 +129,7 @@ This method is tested on following Environment
 2. Because this script is modify to fit multi GPU training, so it need use torchrun to run the training script. There are few environment need export before torchrun.
 
 ```
+# if torchrun push erro, you can try this .
 export OMP_NUM_THREADS=1
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 ```
