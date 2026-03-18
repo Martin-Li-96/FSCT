@@ -142,7 +142,7 @@ export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 ```
 
 4. Training Output
-   - This `train.py` script will save the model checkpoint for **each epoch** as a `.pth` file in `FSCT/model`.  
+   - This `train.py` script will save the best model checkpoint as a `best_model.pth` file in `FSCT/model`.  
    - A training log in **CSV format** will also be saved in `FSCT/model`.
 
 **Important**: This version of `train.py` uses a customized GPU deployment strategy with a Dynamic Batch Sampler to maximize vRAM utilization. As a result, the `batch_size` setting behaves differently from standard implementations.
