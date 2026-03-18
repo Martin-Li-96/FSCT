@@ -1,6 +1,6 @@
 This repository is a fork of [SKrisanski/FSCT](https://github.com/SKrisanski/FSCT). It modifies the original FSCT to support multi-GPU training and replaces random sampling with Furthest Point Sampling (FPS). Additionally, this fork updates FSCT to be compatible with PyTorch 2.X and CUDA 12.9, enabling support for newer NVIDIA GPUs.
 
-> **Requirement:** NVIDIA GPU with at least 16GB of VRAM.
+> **Requirement:** NVIDIA GPU with at least 16GB of vRAM.
 
 ## How to use this repository:
 
@@ -99,7 +99,14 @@ This method is tested on following Environment
    python3 FSCT/scripts/train_data_pre.py
    ```
 
-   when it finish preprocess, the processed data will be in FSCT/data/train/sample_dir, the processed data will be in .npy files. The sign of finish preprocess is it will push error
+   when it finish preprocess, the processed data will be in FSCT/data/train/sample_dir, the processed data will be in .npy files. The sign of finish preprocess is it will push error like this:
+
+   ```
+   ###########################################################################
+   NO DATA FOUND ERROR: No validation samples found.
+   ###########################################################################
+   
+   ```
 
 3. Save processed data into separate folder or rename it rather than keep them in the **sample_dir** folder, unless you put all your .las file in FSCT/data/train and preprocess them at once.
 
@@ -138,6 +145,18 @@ export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
    - This `train.py` script will save the model checkpoint for **each epoch** as a `.pth` file in `FSCT/model`.  
    - A training log in **CSV format** will also be saved in `FSCT/model`.
 
+**Important**: This version of `train.py` uses a customized GPU deployment strategy with a Dynamic Batch Sampler to maximize vRAM utilization. As a result, the `batch_size` setting behaves differently from standard implementations.
+
+- The effective batch size is controlled by `max_batch_mb`, defined in:
+  ```python
+  dynamic_sampler = DynamicBatchSampler(train_dataset, train_sampler, max_batch_mb=2.6)
+
+- `max_batch_mb` represents the total size (in MB) of input data loaded per batch.
+- For example, with 16GB vRAM, the supported total input size per batch is approximately ≤ 2.6 MB.
+- If your GPU has more than 16GB of vRAM, you can increase this value accordingly.
+
+Adjust this parameter carefully based on your available vRAM to avoid out-of-memory (OOM) errors.
+
 ### Inference
 
 1. The parameters of Inference are in `FSCT/scripts/other_parameters.py`. Some things need to be notice:
@@ -173,8 +192,8 @@ Some tips of Inference:
 
    **After preprocessing is finished, run inference:**
 
-   - Reduce `batch_size` according to your GPU VRAM.
-      For example, for 16GB VRAM:
+   - Reduce `batch_size` according to your GPU vRAM.
+      For example, for 16GB vRAM:
 
      ```
      batch_size = 4
@@ -188,5 +207,10 @@ Some tips of Inference:
 
    - Run the script again for inference
 
+This fork is edit and test on following setup:
 
+- CPU: Intel 19-11900kb (8C16T)
+- GPU: Nvidia RTX 4060ti (16GB vRAM) and Nvidia RTX 4070Ti Super (16GB vRAM)
+- RAM: 64 GB DDR4 
+- OS: RHEL 10.1 with Developer Subscription 
 
