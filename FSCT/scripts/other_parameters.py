@@ -5,7 +5,7 @@
 
 other_parameters = dict(
     model_filename="best_model.pth",
-    box_dimensions=[5, 5, 5],  # Dimensions of the sliding box used for semantic segmentation.
+    box_dimensions=[10, 10, 10],  # Dimensions of the sliding box used for semantic segmentation.
     box_overlap=[0.65, 0.65, 0.65],  # Overlap of the sliding box used for semantic segmentation.
     min_points_per_box=1000,  # Minimum number of points for input to the model. Too few points and it becomes near impossible to accurately label them (though assuming vegetation class is the safest bet here).
     max_points_per_box=80000,  # Maximum number of points for input to the model. The model may tolerate higher numbers if you decrease the batch size accordingly (to fit on the GPU), but this is not tested.

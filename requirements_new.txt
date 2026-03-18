@@ -1,0 +1,13 @@
+hdbscan==0.8.40
+laspy[lazrs,laszip]
+Markdown
+matplotlib
+numpy==1.26.4
+tqdm
+scikit-image==0.24.0
+scikit-learn==1.6.1
+scikit-spatial==9.0.1
+matplotlib==3.9.4
+charset-normalizer==3.4.4
+pandas==2.3.3
+mdutils==1.8.1
