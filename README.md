@@ -56,7 +56,7 @@ This method is tested on following Environment
 3.  You can use following command to start a FSCT container
 
    ```
-   docker run -id -v [mount your data into to container] --privileged --name FSCT FSCT /sbin/init
+   docker run -id -v [mount your data into to container] --privileged --shm-size=16g --name FSCT FSCT /sbin/init
    ```
 
 #### Use FSCT.tar
@@ -72,7 +72,7 @@ This method is tested on following Environment
 3. Create a FSCT container
 
    ```
-   docker run -id -v [mount your data into to container]:[/data/xxx] --privileged --name FSCT m686li/fsct:MultiGPU /sbin/init
+   docker run -id -v [mount your data into to container]:[/data/xxx] --privileged --shm-size=16g --name FSCT m686li/fsct:MultiGPU /sbin/init
    ```
 
 ## For  Training
@@ -129,7 +129,6 @@ This method is tested on following Environment
 2. Because this script is modify to fit multi GPU training, so it need use torchrun to run the training script. There are few environment need export before torchrun.
 
 ```
-# if torchrun push erro, you can try this .
 export OMP_NUM_THREADS=1
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 ```
@@ -207,6 +206,8 @@ Some tips of Inference:
      ```
 
    - Run the script again for inference
+
+   The output file from the inference will be saved in the **same folder** as your target `.las` file.
 
 This fork is edit and test on following setup:
 
